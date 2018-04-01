@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_label_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date: " />
+
+    <TextView
+        android:id="@+id/tv_position_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/tv_label_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="longitude: " />
+
+    <TextView
+        android:id="@+id/tv_position_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/tv_label_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="latitude: " />
+
+    <TextView
+        android:id="@+id/tv_victime_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name" />
+
+</LinearLayout>
